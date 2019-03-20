@@ -15,5 +15,9 @@ public class SolutionTest {
         assertTrue(Solution.sum(3, 4) == 7);
         assertTrue(Solution.sum(2, 2) == 4);
     }
-}
 
+    @Test
+    public void fail() {
+        assertTrue(false);
+    }
+}
