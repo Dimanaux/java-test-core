@@ -2,5 +2,6 @@
 
 mkdir -p out
 CLASSPATH=".;lib/*;out"
-javac.exe -cp $CLASSPATH -d out main/*
-java.exe -cp $CLASSPATH org.junit.runner.JUnitCore main.SolutionTest
+javac -cp $CLASSPATH -d out main/*
+java -cp $CLASSPATH org.junit.runner.JUnitCore main.SolutionTest
+
